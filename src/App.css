@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  background-color: peachpuff;
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgb(140, 204, 190) 2%, rgb(211, 93, 113) 50% ,white);
+}
+
+.heading{
+  text-shadow: 4px 4px 4px cyan;
+}
+.subhead{
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: row;
+  justify-content: space-around;
+  text-align: center;
+  font-size: 21px;
+  margin-top: 100px;
+}
+
+.item1 {
+  background-color: rgb(119, 187, 187);
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 50px;
+  
+}
+
+.item2 {
+  background-color: rgb(119, 187, 187);
+  padding: 10px;
+  border: 3px solid black;
+  border-radius: 50px;
+  
+}
